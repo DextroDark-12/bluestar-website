@@ -1,0 +1,21 @@
+{
+  "pdf": "E-catalogue.pdf",
+  "pages": 12,
+  "total_placements": 726,
+  "total_saved": 417,
+  "by_folder": {
+    "infrastructure": 3,
+    "granites/indian": 72,
+    "uncategorized": 63,
+    "marbles/indian": 10,
+    "granites/imported": 20,
+    "marbles/imported": 14,
+    "finishes": 13,
+    "monuments": 2,
+    "branding": 220
+  },
+  "errors": [],
+  "stones_json_count": 404,
+  "finishes_json_count": 13,
+  "review_items": 216
+}

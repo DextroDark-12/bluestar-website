@@ -1,0 +1,106 @@
+[
+  {
+    "id": "impala-black-finish-sample",
+    "name": "Impala Black",
+    "image": "/assets/finishes/impala-black-finish-sample/card.webp",
+    "thumbnail": "/assets/finishes/impala-black-finish-sample/thumbnail.webp",
+    "detail": "/assets/finishes/impala-black-finish-sample/detail.webp",
+    "confidence": 0.539
+  },
+  {
+    "id": "impala-black-finish-sample-1",
+    "name": "Impala Black",
+    "image": "/assets/finishes/impala-black-finish-sample-1/card.webp",
+    "thumbnail": "/assets/finishes/impala-black-finish-sample-1/thumbnail.webp",
+    "detail": "/assets/finishes/impala-black-finish-sample-1/detail.webp",
+    "confidence": 0.56
+  },
+  {
+    "id": "impala-black-finish-sample-2",
+    "name": "Impala Black",
+    "image": "/assets/finishes/impala-black-finish-sample-2/card.webp",
+    "thumbnail": "/assets/finishes/impala-black-finish-sample-2/thumbnail.webp",
+    "detail": "/assets/finishes/impala-black-finish-sample-2/detail.webp",
+    "confidence": 0.463
+  },
+  {
+    "id": "persiano-finish-sample",
+    "name": "Persiano",
+    "image": "/assets/finishes/persiano-finish-sample/card.webp",
+    "thumbnail": "/assets/finishes/persiano-finish-sample/thumbnail.webp",
+    "detail": "/assets/finishes/persiano-finish-sample/detail.webp",
+    "confidence": 0.46
+  },
+  {
+    "id": "rosso-levanto-finish-sample",
+    "name": "Rosso Levanto",
+    "image": "/assets/finishes/rosso-levanto-finish-sample/card.webp",
+    "thumbnail": "/assets/finishes/rosso-levanto-finish-sample/thumbnail.webp",
+    "detail": "/assets/finishes/rosso-levanto-finish-sample/detail.webp",
+    "confidence": 0.458
+  },
+  {
+    "id": "sandblasted-sandblasted",
+    "name": "Sandblasted",
+    "image": "/assets/finishes/sandblasted-sandblasted/card.webp",
+    "thumbnail": "/assets/finishes/sandblasted-sandblasted/thumbnail.webp",
+    "detail": "/assets/finishes/sandblasted-sandblasted/detail.webp",
+    "confidence": 0.849
+  },
+  {
+    "id": "tan-brown-finish-sample",
+    "name": "Tan Brown",
+    "image": "/assets/finishes/tan-brown-finish-sample/card.webp",
+    "thumbnail": "/assets/finishes/tan-brown-finish-sample/thumbnail.webp",
+    "detail": "/assets/finishes/tan-brown-finish-sample/detail.webp",
+    "confidence": 0.866
+  },
+  {
+    "id": "tan-brown-finish-sample-1",
+    "name": "Tan Brown",
+    "image": "/assets/finishes/tan-brown-finish-sample-1/card.webp",
+    "thumbnail": "/assets/finishes/tan-brown-finish-sample-1/thumbnail.webp",
+    "detail": "/assets/finishes/tan-brown-finish-sample-1/detail.webp",
+    "confidence": 0.852
+  },
+  {
+    "id": "tan-brown-finish-sample-2",
+    "name": "Tan Brown",
+    "image": "/assets/finishes/tan-brown-finish-sample-2/card.webp",
+    "thumbnail": "/assets/finishes/tan-brown-finish-sample-2/thumbnail.webp",
+    "detail": "/assets/finishes/tan-brown-finish-sample-2/detail.webp",
+    "confidence": 0.628
+  },
+  {
+    "id": "tan-brown-finish-sample-3",
+    "name": "Tan Brown",
+    "image": "/assets/finishes/tan-brown-finish-sample-3/card.webp",
+    "thumbnail": "/assets/finishes/tan-brown-finish-sample-3/thumbnail.webp",
+    "detail": "/assets/finishes/tan-brown-finish-sample-3/detail.webp",
+    "confidence": 0.634
+  },
+  {
+    "id": "tan-brown-polished",
+    "name": "Tan Brown - Polished",
+    "image": "/assets/finishes/tan-brown-polished/card.webp",
+    "thumbnail": "/assets/finishes/tan-brown-polished/thumbnail.webp",
+    "detail": "/assets/finishes/tan-brown-polished/detail.webp",
+    "confidence": 0.676
+  },
+  {
+    "id": "tan-flamed",
+    "name": "Tan-Brown-Flamed",
+    "image": "/assets/finishes/tan-flamed/card.webp",
+    "thumbnail": "/assets/finishes/tan-flamed/thumbnail.webp",
+    "detail": "/assets/finishes/tan-flamed/detail.webp",
+    "confidence": 0.677
+  },
+  {
+    "id": "travertino-beige-finish-sample",
+    "name": "Travertino Beige",
+    "image": "/assets/finishes/travertino-beige-finish-sample/card.webp",
+    "thumbnail": "/assets/finishes/travertino-beige-finish-sample/thumbnail.webp",
+    "detail": "/assets/finishes/travertino-beige-finish-sample/detail.webp",
+    "confidence": 0.457
+  }
+]

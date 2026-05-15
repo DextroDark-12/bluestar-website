@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="BlueStar Granite & Marble — premium natural stone supplier. Granite, marble, and quartzite for countertops, flooring, and custom fabrication. Pan-India delivery.">
+  <meta name="keywords" content="granite, marble, quartzite, natural stone, countertops, flooring, stone supplier, BlueStar, India">
+  <meta name="author" content="BlueStar Granite & Marble">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="BlueStar Granite & Marble — Where Stone Meets Craftsmanship">
+  <meta property="og:description" content="Premium natural stone supplier. Granite, marble, and quartzite for countertops, flooring, and custom fabrication. Pan-India delivery.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://bluestarstone.com">
+  <meta property="og:image" content="https://bluestarstone.com/images/og-image.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="BlueStar Granite & Marble">
+  <meta name="twitter:description" content="Premium natural stone supplier. Pan-India delivery.">
+  <title>BlueStar — Premium Granite &amp; Marble | Natural Stone Supplier</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+
+  <!-- ===== Navbar ===== -->
+  <header class="navbar scrolled" role="banner">
+    <a href="index.html" class="navbar__logo" aria-label="BlueStar Home">
+      <span class="navbar__logo-icon">&#x2B21;</span>
+      <span>
+        BLUESTAR
+        <span class="navbar__logo-sub">Granite &amp; Marble</span>
+      </span>
+    </a>
+
+    <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+      <span class="hamburger__line"></span>
+      <span class="hamburger__line"></span>
+      <span class="hamburger__line"></span>
+    </button>
+
+    <nav aria-label="Main navigation">
+      <ul class="navbar__links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===== Hero ===== -->
+  <section class="hero" id="home" style="background-image:linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('hero-bg.png');
+   background-size: cover; background-position: center;" aria-labelledby="hero-heading">
+    <div class="hero__inner container">
+      <h1 class="hero__title animate-on-scroll" id="hero-heading">Where Stone Meets Craftsmanship</h1>
+      <p class="hero__subtext animate-on-scroll delay-1">Premium natural stone for countertops, flooring, and architectural spaces — sourced from the finest quarries, delivered across India.</p>
+      <div class="hero__actions animate-on-scroll delay-2">
+        <a href="#products" class="btn-primary">Explore Collection</a>
+        <a href="#contact" class="btn-outline btn-outline--light">Get Free Quote</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Categories ===== -->
+  <section class="section" id="products" aria-labelledby="categories-heading">
+    <div class="container">
+      <h2 class="section-title animate-on-scroll" id="categories-heading">Our Stone Collection</h2>
+      <p class="section-subtitle animate-on-scroll delay-1">Three timeless materials, each with its own character and strength.</p>
+      <div class="grid animate-on-scroll delay-2">
+        <div class="col-4">
+          <div class="card animate-on-scroll delay-1">
+            <div class="card__body text-center">
+              <div style="font-size: 3rem; margin-bottom: 0.75rem;" aria-hidden="true">&#x1FAA8;</div>
+              <h3 class="card__title">Granite</h3>
+              <p class="card__text">Dense, durable, and heat-resistant — ideal for kitchen countertops and high-traffic floors. Available in Absolute Black, Kashmir Gold, and over 40 finishes.</p>
+              <a href="products.html?filter=granite" class="btn-outline" style="margin-top: 1rem;">View Granite</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card animate-on-scroll delay-2">
+            <div class="card__body text-center">
+              <div style="font-size: 3rem; margin-bottom: 0.75rem;" aria-hidden="true">&#x1F9F1;</div>
+              <h3 class="card__title">Marble</h3>
+              <p class="card__text">Elegant veining and a luminous surface — perfect for bathrooms, accent walls, and luxury flooring. Sourced from Makrana, Italian Carrara, and more.</p>
+              <a href="products.html?filter=marble" class="btn-outline" style="margin-top: 1rem;">View Marble</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card animate-on-scroll delay-3">
+            <div class="card__body text-center">
+              <div style="font-size: 3rem; margin-bottom: 0.75rem;" aria-hidden="true">&#x1FAA8;</div>
+              <h3 class="card__title">Quartzite</h3>
+              <p class="card__text">The hardness of granite with the shimmer of marble — a striking choice for statement islands and outdoor cladding. Resistant to etching and UV.</p>
+              <a href="products.html?filter=finish" class="btn-outline" style="margin-top: 1rem;">View Finishes</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h3 class="section-title animate-on-scroll delay-3" style="margin-top: 2.5rem; font-size: clamp(1.25rem, 3vw, 1.65rem);">From the catalogue</h3>
+      <p class="section-subtitle animate-on-scroll delay-3" style="margin-top: 0.5rem;">Featured granite, marble, and finish samples.</p>
+      <div id="home-catalog-strip" class="products-grid animate-on-scroll delay-3" style="margin-top: 1.5rem;" aria-label="Featured stones from catalogue"></div>
+    </div>
+  </section>
+
+  <!-- ===== Why Us ===== -->
+  <section class="section bg-surface" id="about" aria-labelledby="whyus-heading">
+    <div class="container">
+      <h2 class="section-title animate-on-scroll" id="whyus-heading">Why Choose BlueStar</h2>
+      <p class="section-subtitle animate-on-scroll delay-1">Decades of stone expertise, delivered to your doorstep.</p>
+      <div class="grid animate-on-scroll delay-2">
+        <div class="col-3 animate-on-scroll delay-1">
+          <div class="card" style="text-align: center;">
+            <div class="card__body">
+              <div style="font-size: 2.5rem; margin-bottom: 0.5rem;" aria-hidden="true">&#x1F48E;</div>
+              <h3 class="card__title">Premium Quality</h3>
+              <p class="card__text">Every slab hand-inspected for consistency, color, and structural integrity before it leaves our yard.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 animate-on-scroll delay-2">
+          <div class="card" style="text-align: center;">
+            <div class="card__body">
+              <div style="font-size: 2.5rem; margin-bottom: 0.5rem;" aria-hidden="true">&#x1F6E0;&#xFE0F;</div>
+              <h3 class="card__title">Custom Fabrication</h3>
+              <p class="card__text">CNC precision cutting, edge profiling, and sink cutouts — fabricated to your exact measurements.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 animate-on-scroll delay-3">
+          <div class="card" style="text-align: center;">
+            <div class="card__body">
+              <div style="font-size: 2.5rem; margin-bottom: 0.5rem;" aria-hidden="true">&#x2B50;</div>
+              <h3 class="card__title">20+ Years Experience</h3>
+              <p class="card__text">Third-generation stonemasons. Over two decades of trusted service across residential and commercial projects.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 animate-on-scroll delay-4">
+          <div class="card" style="text-align: center;">
+            <div class="card__body">
+              <div style="font-size: 2.5rem; margin-bottom: 0.5rem;" aria-hidden="true">&#x1F69A;</div>
+              <h3 class="card__title">Pan-India Delivery</h3>
+              <p class="card__text">Secure crating and insured shipping to any pin code. We deliver slabs intact, on time.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Testimonials ===== -->
+  <section class="section" id="gallery" aria-labelledby="testimonials-heading">
+    <div class="container">
+      <h2 class="section-title animate-on-scroll" id="testimonials-heading">What Our Clients Say</h2>
+      <p class="section-subtitle animate-on-scroll delay-1">Trusted by homeowners, architects, and builders across India.</p>
+      <div class="grid animate-on-scroll delay-2">
+        <div class="col-4 animate-on-scroll delay-1">
+          <div class="card">
+            <div class="card__body">
+              <div class="text-accent" style="font-size: 1.1rem; letter-spacing: 0.15em; margin-bottom: 0.75rem;" aria-label="5 out of 5 stars">&#x2605;&#x2605;&#x2605;&#x2605;&#x2605;</div>
+              <p class="card__text" style="font-style: italic; margin-bottom: 1rem;">"The Absolute Black granite countertop transformed our kitchen. The fabrication was precise and the installation team was incredibly professional. Highly recommended."</p>
+              <strong style="font-size: 0.85rem;">Priya Sharma</strong>
+              <span style="display: block; font-size: 0.75rem; opacity: 0.55;">Mumbai, Maharashtra</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 animate-on-scroll delay-2">
+          <div class="card">
+            <div class="card__body">
+              <div class="text-accent" style="font-size: 1.1rem; letter-spacing: 0.15em; margin-bottom: 0.75rem;" aria-label="5 out of 5 stars">&#x2605;&#x2605;&#x2605;&#x2605;&#x2605;</div>
+              <p class="card__text" style="font-style: italic; margin-bottom: 1rem;">"We sourced Italian Carrara marble for our hotel lobby. BlueStar handled the logistics end-to-end — from selection to delivery. The veining match across slabs was flawless."</p>
+              <strong style="font-size: 0.85rem;">Rajiv Mehta</strong>
+              <span style="display: block; font-size: 0.75rem; opacity: 0.55;">Jaipur, Rajasthan</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 animate-on-scroll delay-3">
+          <div class="card">
+            <div class="card__body">
+              <div class="text-accent" style="font-size: 1.1rem; letter-spacing: 0.15em; margin-bottom: 0.75rem;" aria-label="5 out of 5 stars">&#x2605;&#x2605;&#x2605;&#x2605;&#x2605;</div>
+              <p class="card__text" style="font-style: italic; margin-bottom: 1rem;">"Quartzite was a great recommendation from their team for our outdoor BBQ counter. Two monsoons later, it still looks brand new. Worth every rupee."</p>
+              <strong style="font-size: 0.85rem;">Anita Desai</strong>
+              <span style="display: block; font-size: 0.75rem; opacity: 0.55;">Bangalore, Karnataka</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA Banner ===== -->
+  <section class="section cta-banner animate-on-scroll" id="contact" aria-labelledby="cta-heading">
+    <div class="container text-center">
+      <h2 class="cta-banner__title animate-on-scroll" id="cta-heading">Transform Your Space with Natural Stone</h2>
+      <p class="cta-banner__subtext animate-on-scroll delay-1">Get a free consultation and quote — no obligation, just honest advice from stone experts.</p>
+      <a href="contact.html" class="btn-primary animate-on-scroll delay-2" style="margin-top: 1rem;">Contact Us Today</a>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <div class="footer__brand-name">&#x2B21; BLUESTAR</div>
+        <p class="footer__tagline">Third-generation stonemasons delivering premium granite, marble, and quartzite across India since 2003.</p>
+        <div class="footer__social">
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Instagram">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          </a>
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Facebook">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+          </a>
+          <a href="https://wa.me/919638266633" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div>
+        <h4 class="footer__heading">Contact Us</h4>
+        <div class="footer__contact">
+          <p>&#x1F4CD; 6QJ7+M7, Pal, Gujarat 360004</p>
+          <p>&#x1F4DE; <a href="tel:+919638266633">+91 96382 66633</a></p>
+          <p>&#x2709; <a href="mailto:BlueStar2025@gmail.com">BlueStar2025@gmail.com</a></p>
+          <p>&#x1F556; Mon–Sat: 9:00 AM – 7:00 PM</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; 2026 BlueStar Granite &amp; Marble. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- ===== WhatsApp Floating Button ===== -->
+  <a href="https://wa.me/919638266633" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat with us on WhatsApp">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <script src="js/main.js"></script>
+  <script src="js/home-catalog.js"></script>
+</body>
+</html>
