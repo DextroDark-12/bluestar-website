@@ -47,4 +47,4 @@ HTML5, CSS3, Vanilla JS. Google Fonts (Cormorant Garamond + DM Sans). No framewo
 
 ## Credits
 
-Built for Bluestar Granite and Marble, Jalandhar.
+Built for Bluestar Granite and Marble, Rajkot , Gujarat.
